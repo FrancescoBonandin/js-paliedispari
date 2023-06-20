@@ -34,7 +34,7 @@ gameStart.addEventListener("submit", function(event){
     document.getElementById("cpu-number").innerHTML = cpuNumber
     
     const sum = userNumber + cpuNumber;
-    console.log(cpuNumber,userNumber,sum)
+
     document.getElementById("sum").classList.add("show");
     document.getElementById("sum").innerHTML = sum;
     
