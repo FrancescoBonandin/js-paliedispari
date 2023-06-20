@@ -41,13 +41,11 @@ gameStart.addEventListener("submit", function(event){
     let evenOrOddNumber = isEven(sum);;
     
     
-    if(userChoice == "pari" && evenOrOddNumber == true){
+    if((userChoice == "pari" && evenOrOddNumber == true)
+    ||(userChoice == "dispari" && evenOrOddNumber == false )){
         alert("User wins")
     }
     
-    else if(userChoice == "dispari" && evenOrOddNumber == false){
-        alert("User wins")
-    }
     
     else{
         
