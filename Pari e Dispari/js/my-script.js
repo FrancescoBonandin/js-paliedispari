@@ -15,4 +15,35 @@
 
 // .5 stampo il vincitore
 
+const userChoice = prompt("Scegli tra pari e dispari" );
+
+const userNumber = parseInt(prompt("Scegli un numero tra 1 e 5, estremi compresi"));
+
+const cpuNumber = randomBtwn(1, 5);
+
+console.log(cpuNumber);
+
+const sum = userNumber + cpuNumber;
+
+let evenOrOdd;
+
+evenOrOddNumber = isEven(sum);
+
+
+
+    
+
+    if(userChoice == "pari" && evenOrOddNumber == true){
+        alert("User wins")
+    }
+
+    else if(userChoice == "dispari" && evenOrOddNumber == false){
+        alert("User wins")
+    }
+
+    else{
+
+        alert("CPU wins")
+
+    }
 
