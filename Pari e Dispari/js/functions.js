@@ -1,7 +1,7 @@
 //returns a random number between lowerExtreme and higherExtreme (both included):
 function randomBtwn( lowerExtreme, higherExtreme){
     
-        return Math.floor(Math.random() * (higherExtreme - lowerExtreme + 1) ) + lowerExtreme;
+        return  Math.floor(Math.random() * (higherExtreme - lowerExtreme + 1) ) + lowerExtreme;
 }
 
 function isEven(parameter){

@@ -11,5 +11,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+form{
+    padding: 2rem 0 0 2rem;
+}
+
+form > *{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.container > label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+label + div{
+    display:none;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 4px;
+    margin: 1rem 2rem;
+}
 
 
+div.show{
+    display:inline-block;
+}
